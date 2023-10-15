@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L'application pour tes sorties préférées ! Choisi de sortir en solo ou avec tes potes, et fais de nouvelles rencontres pour des soirées mémorables dans des lieux sélectionnées par nos soins">
+    <title>Leexit</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal">
+        <div id="modal-content">
+            <div id="modal-body">
+                    <h2 id="reponse-mail"></h2>
+            </div>
+            <div id="modal-footer">
+                <button id="close-modal" class="bouton">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="first">
+        <div id="header-first">
+            <nav>
+                <img src="/assets/images/leexit.png" alt="logo" id="logo">
+        
+                <button class="bouton" id="btn-contact">nous contacter</button>
+            </nav>
+            <div id="header">
+                <div id="title">
+                    <div>
+                        <h1>Leexit,</h1>
+                        <h2>agrandis ta tribu !</h1>
+                    </div>
+                    <div id="icon-store">
+                        <a href=""><img src="/assets/images/play.png"  alt="play store logo" /></a>
+                        <a href=""><img src="/assets/images/apple.png" alt="apple store logo">
+                        </a>
+                    </div>
+                </div>
+                <img id="illu1" src="/assets/images/Illu 1.png" alt="illu 1">
+            </div>
+
+        </div>
+
+        <div id="description-mobile">
+            <img src="/assets/images/Illu 2 sans texte.png" alt="">
+            <div>
+                <h2>L'application pour tes sorties préférées !</h2>
+                <p>Choisi de sortir en solo ou avec tes potes, et fais de nouvelles rencontres pour des soirées mémorables dans des lieux sélectionnées par nos soins</p>
+            </div>
+        </div>
+
+        <img id="description" src="/assets/images/illu 2.png" alt="illu 2">
+    </section>
+    <section id="second">
+        <img id="illu3" src="/assets/images/illu 3.png" alt="illu 3">
+        <div id="description-reseau">
+            <img src="/assets/images/Illu 3 sans texte.png" alt="">
+            <div>
+                <h2>Explore une variété d'expériences en te faisant de nouveaux potes !</h2>
+                <p>Des virées dans des bars animés, des événements passionnants, des soirées caliente en boîte aussi bien que des séances cinéma conviviales et des sorties culturelles enrichissantes</p>
+            </div>
+        </div>
+        <img id="illu4" src="/assets/images/illu 4.png" alt="illu 4">
+        <div id="description-emoji">
+            <img src="/assets/images/Illu 4 sans texte.png" alt="">
+            <div>
+                <h2>Et quoi d'autre ?</h2>
+                <p>Leexit est aussi un petit réseau social de la fête. Tu peux ajouter en ami les gens que tu rencontres pour pouvoir faire de nouvelles sorties avec eux et partager des stories de tes soirées avec toute la liste de potes. Un max de choses arrive dans la V2 de l'appli pour pimenter encore plus tes stories.</p>
+            </div>
+        </div>
+    </section>
+    <section id="third">
+        <div id="video">
+            <img id="cadre-iphone" src="./assets/images/illu 5.png" alt="illu 5">
+            <video id="video-leexit" autoplay loop muted playsinline></video>
+        </div>
+    </section>
+    <section id="four">
+        <div id="sectionWrapper">
+            <h3>Reste informé(e) des dernières nouveautés !</h3>
+            <h4>Abonne-toi à notre newsletter</h4>
+            <span>(promis on spam pas !)</span>
+            
+            <form id="form-mail">
+                <div class="input">
+                    <input type="email" placeholder="prénom.nom@gmail.com" name="email" id="email">
+                    <label for="email" >Entre ton adresse mail</label>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div></div>
+        <ul>
+            <li id="cgu"><a href="/pages/CGU.html">Conditions générales d'utilisation</a></li>
+            <li id="ml"><a href="/pages/Mentions_legales.html">Mentions légales</a></li>
+            <li id="apn"><a href="/pages/a_propos_de_nous.html">À propos de nous</a></li>
+            <li id="pc"><a href="/pages/politique_de_confidentialite.html">Politique de confidentialité</a></li>
+        </ul>
+
+        <span>Copyright © 2023 TCL Stroll. ALL Rights Reserved.</span>
+    </footer>
+
+    <script async src="./index.js"></script>
+    <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+</body>
+</html>
